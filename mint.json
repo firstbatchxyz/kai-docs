@@ -1,0 +1,95 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Kai Documentation",
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@dria.co"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Kai",
+    "url": "https://marketplace.visualstudio.com/items?itemName=Dria.kai-vscode"
+  },
+  "anchors": [
+    {
+      "name": "VS Code Extension",
+      "icon": "puzzle-piece",
+      "url": "https://marketplace.visualstudio.com/items?itemName=Dria.kai-vscode"
+    },
+    {
+      "name": "Web Dashboard",
+      "icon": "browser",
+      "url": "https://kai.dria.co"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "getting-started"
+      ]
+    },
+    {
+      "group": "Using Kai",
+      "pages": [
+        "using-kai/first-scan",
+        "using-kai/understanding-results",
+        "using-kai/managing-vulnerabilities",
+        "using-kai/scan-modes"
+      ]
+    },
+    {
+      "group": "VS Code Extension",
+      "pages": [
+        "vs-code-extension/installation",
+        "vs-code-extension/troubleshooting"
+      ]
+    },
+    {
+      "group": "Web Dashboard",
+      "pages": [
+        "web-dashboard/overview",
+        "web-dashboard/workspaces",
+        "web-dashboard/team-collaboration",
+        "web-dashboard/vulnerability-management",
+        "web-dashboard/analytics"
+      ]
+    },
+    {
+      "group": "Security Analysis",
+      "pages": [
+        "security-analysis/how-it-works",
+        "security-analysis/vulnerability-types",
+        "security-analysis/severity-levels",
+        "security-analysis/fix-suggestions"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "support/faq"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/firstbatchxyz",
+    "x": "https://x.com/draboratory",
+    "discord": "https://discord.gg/dria"
+  }
+}
