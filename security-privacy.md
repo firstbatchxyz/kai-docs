@@ -115,5 +115,5 @@ For organizations with strict network policies, Kai requires access to:
 ## Questions?
 
 For security-specific questions or to request additional documentation:
-- **Email**: security@dria.co
+- **Email**: kai@dria.co
 - **Enterprise inquiries**: Contact sales for detailed security documentation
