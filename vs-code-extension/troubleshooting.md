@@ -385,10 +385,10 @@ echo $HTTPS_PROXY
 
 ### Support Channels
 
-1. **GitHub Issues**: [Report bugs](https://github.com/firstbatchxyz/kai-vscode-extension/issues)
+1. **Email**: kai@dria.co for bug reports and feature requests
 2. **Documentation**: Check other sections of this documentation
-3. **Community**: VS Code marketplace Q&A section
-4. **Direct Support**: Contact support through the web dashboard
+3. **Community**: VS Code Marketplace Q&A section
+4. **Web Dashboard**: Contact support directly through the dashboard
 
 ### Temporary Workarounds
 

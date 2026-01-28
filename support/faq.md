@@ -272,18 +272,18 @@ Contact support through the web dashboard for comprehensive assistance.
 - **[Web Dashboard Guide](../web-dashboard)**: Team collaboration and management features
 
 **Support channels**:
-- **GitHub Issues**: [Report bugs and request features](https://github.com/firstbatchxyz/kai-vscode-extension/issues)
-- **Email Support**: Contact through the web dashboard
+- **Email**: kai@dria.co
+- **Web Dashboard**: Contact support directly through the dashboard
 - **Community**: VS Code Marketplace Q&A section
 
 ### How do I report a bug or request a feature?
 
-1. **Check existing issues** on GitHub to avoid duplicates
-2. **Gather information**: VS Code version, extension version, error messages
-3. **Create detailed issue** with steps to reproduce the problem
-4. **Include screenshots** if relevant for UI issues
+1. **Gather information**: VS Code version, extension version, error messages
+2. **Document the issue** with steps to reproduce the problem
+3. **Include screenshots** if relevant for UI issues
+4. **Email kai@dria.co** with your detailed report
 
-For security vulnerabilities in Kai itself, please report privately through the contact form rather than public GitHub issues.
+For security vulnerabilities in Kai itself, please report privately via email rather than public channels.
 
 ### Can I get training or consulting help?
 
