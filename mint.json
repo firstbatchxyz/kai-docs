@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Kai Documentation",
   "logo": {
-    "light": "/logo/light.png",
-    "dark": "/logo/dark.png"
+    "light": "/favicon.png",
+    "dark": "/favicon.png"
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -42,7 +42,8 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "getting-started"
+        "getting-started",
+        "security-privacy"
       ]
     },
     {
@@ -89,7 +90,7 @@
   ],
   "footerSocials": {
     "github": "https://github.com/firstbatchxyz",
-    "x": "https://x.com/draboratory",
+    "x": "https://x.com/driaforall",
     "discord": "https://discord.gg/dria"
   }
 }

@@ -69,13 +69,9 @@ A typical scan finds 10-25 vulnerabilities across all severity levels, with most
 
 ### Can I use my own API keys to reduce costs?
 
-Yes. You can configure your OpenRouter API key in VS Code settings:
-1. Go to VS Code Settings
-2. Search for "Kai Agent"
-3. Add your OpenRouter API key
-4. This uses your LLM credits instead of Kai's, potentially reducing costs
+This feature is coming soon. You'll be able to configure your OpenRouter API key in VS Code settings to use your own LLM credits instead of Kai's, potentially reducing costs.
 
-This is optional - Kai works perfectly with its own API keys if you prefer not to manage your own.
+Currently, Kai uses its own API infrastructure for all analysis.
 
 ## Understanding Results
 
@@ -126,13 +122,13 @@ You can also contact support for clarification on specific vulnerabilities.
 
 ### Does Kai work with my CI/CD pipeline?
 
-Currently, Kai primarily works through the VS Code extension for scan initiation. However:
-- **Scan results** are accessible through the web dashboard
-- **API access** is available for enterprise users
-- **Webhooks** can notify external systems about scan completion
-- **Future integration** with CI/CD systems is planned
+Currently, Kai works through the VS Code extension and web dashboard. Direct CI/CD integration is on our roadmap.
 
-For now, most teams integrate Kai by running scans before major releases and including security fixes in their development workflow.
+**Coming soon**:
+- **GitHub integration**: Create issues directly from vulnerability findings
+- **Jira integration**: Link vulnerabilities to your existing ticket workflow
+
+**Current workflow**: Most teams integrate Kai by running scans before major releases through the VS Code extension and tracking fixes via the web dashboard's Kanban workflow.
 
 ### Can I run Kai on-premises?
 
@@ -199,33 +195,29 @@ You can monitor costs in real-time during scans and set up usage alerts.
 1. Go to your workspace in the web dashboard
 2. Navigate to Settings → Team
 3. Click "Invite Members"
-4. Enter email addresses or GitHub usernames
-5. Select appropriate roles (Owner, Admin, Member, Viewer)
+4. Enter team member email addresses
+5. Select appropriate roles (Admin, Member, Viewer)
 6. Send invitations
 
 Team members will receive email invitations to join your workspace.
 
 ### What's the difference between workspace roles?
 
-**Owner**:
-- Full control over workspace settings and billing
-- Can add/remove members and change roles
-- Can delete workspace or transfer ownership
-
 **Admin**:
-- Can manage team members and workspace settings
+- Full control over workspace settings
+- Can invite/remove members and change roles
 - Access to all projects and vulnerability data
-- Cannot change billing or delete workspace
+- Can manage repository configurations
 
 **Member**:
-- Can access assigned projects and participate in vulnerability management
+- Can run scans and participate in vulnerability management
 - Can comment and collaborate on findings
 - Cannot manage workspace settings or team membership
 
 **Viewer**:
 - Read-only access to assigned projects
 - Can view vulnerabilities and reports
-- Cannot modify vulnerability status or settings
+- Cannot modify vulnerability status or run scans
 
 ### Can I integrate Kai with Slack or other tools?
 

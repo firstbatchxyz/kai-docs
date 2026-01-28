@@ -10,7 +10,7 @@ Choose the right analysis depth for your project. Kai offers three scan modes th
 
 | Mode | Duration | Best For | Typical Findings |
 |------|----------|----------|------------------|
-| **🔥 Baseline** | ~2 hours | Quick feedback, CI integration, prototypes | 3-8 vulnerabilities |
+| **🔥 Baseline** | ~2 hours | Quick feedback, prototypes, rapid iteration | 3-8 vulnerabilities |
 | **🎯 Enhanced** | ~4 hours | Production code, regular reviews (recommended) | 8-20 vulnerabilities |
 | **🔍 Full** | ~8 hours | Critical systems, pre-production audits | 15-35 vulnerabilities |
 
@@ -18,7 +18,7 @@ Choose the right analysis depth for your project. Kai offers three scan modes th
 
 Baseline mode provides rapid security feedback for time-sensitive projects. It focuses on high-confidence vulnerabilities with straightforward exploit patterns like obvious SQL injection, clear authentication bypasses, and standard input validation issues.
 
-**Use Baseline for**: Rapid prototyping, CI/CD integration, initial code reviews, and when you need results quickly for development iteration.
+**Use Baseline for**: Rapid prototyping, initial code reviews, quick security checks, and when you need results quickly for development iteration.
 
 **Limitations**: May miss subtle logic flaws, complex attack chains, and sophisticated business logic vulnerabilities that require deeper analysis.
 
@@ -44,6 +44,6 @@ Consider your timeline and risk tolerance. If you need results today, use Baseli
 
 The analysis quality is consistent across all modes - Full mode doesn't find "better" vulnerabilities, it finds more vulnerabilities through deeper analysis. Every reported vulnerability includes working exploit code regardless of the scan mode used.
 
-Most teams use Enhanced mode for regular development and Full mode for important releases or high-risk systems. Baseline mode works well for continuous integration and rapid iteration cycles.
+Most teams use Enhanced mode for regular development and Full mode for important releases or high-risk systems. Baseline mode works well for quick security checks and rapid iteration cycles.
 
 Ready to learn about managing your scan results? Check out [Managing Vulnerabilities](managing-vulnerabilities) to handle your results effectively.

@@ -7,8 +7,8 @@ Get your first security scan running in under 5 minutes. No configuration requir
 Before you begin, make sure you have:
 
 - **VS Code 1.80.0 or higher**
-- **Internet connection for initialization** (Kai clones your codebase to the cloud, then you can go offline)
-- **Git repository** with at least one commit (Kai uses git history for analysis)
+- **Internet connection** (selected files are uploaded to Kai's cloud for analysis)
+- **Git repository** with at least one commit (Kai uses the commit hash for scan identification)
 
 ## Step 1: Install the VS Code Extension
 
@@ -51,7 +51,7 @@ Kai uses GitHub OAuth for authentication but never accesses your private reposit
    - Binary files and assets
 
 <Tip>
-**Start small**: For your first scan, select 5-10 key files. You can always run additional scans with more files later.
+**Start small**: For your first scan, select 5-10 key files. You can always run additional scans with more files later. Maximum upload size is 50MB per scan.
 </Tip>
 
 ## Step 5: Choose Your Scan Mode
@@ -119,8 +119,8 @@ Drag and drop findings between columns to track your progress.
 
 ### Get Help
 
-- Check the [FAQ](support/faq) for common questions
 - Check the [FAQ](support/faq) for common questions and solutions
+- Review [Security & Privacy](security-privacy) for data handling details
 - Contact support through the web dashboard if you're stuck
 
 ## What to Expect from Your First Scan

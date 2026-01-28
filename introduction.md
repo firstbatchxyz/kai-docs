@@ -2,7 +2,7 @@
 
 **AI security agents for your entire codebase**
 
-Kai hardens AI-generated and rapidly written code by finding, proving, and patching real vulnerabilities before they reach production. Turn vibe-coded prototypes into production-grade security.
+Kai hardens AI-generated and rapidly written code by finding, proving, and patching real vulnerabilities before they reach production. Turn fast-moving prototypes into production-ready, secure applications.
 
 ## Why Kai?
 
@@ -26,7 +26,7 @@ A single Kai runtime launches dozens of agents in parallel, scanning code, gener
 
 ### ☁️ **Cloud Runtime, IDE Optional**
 
-Kai runs in isolated cloud sandboxes, so you don't need powerful hardware or to keep your device open for hours. After initialization, Kai clones your codebase to the cloud and you can shut down your computer while agents run the analysis. Progress, exploit traces, and suggested code diffs are all available in the web dashboard.
+Kai runs in isolated cloud sandboxes, so you don't need powerful hardware or keep your device running for hours. After initialization, only the files you select are uploaded to secure cloud environments for analysis. You can close VS Code while agents work - progress and results are available in the web dashboard anytime.
 
 ### 📊 **Watch Security Evolve in Real Time**
 

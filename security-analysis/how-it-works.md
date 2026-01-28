@@ -12,34 +12,81 @@ Kai follows a systematic four-stage process to discover, verify, fix, and valida
 
 ### Discovery: Finding Potential Vulnerabilities
 
-Kai analyzes your code to understand its structure, purpose, and security properties. Rather than just matching patterns, Kai reasons about what your code is trying to do and what could go wrong. It comprehends the business logic and data flow, identifies what security rules should hold, generates hypotheses about where these rules might be violated, and explores different attack vectors that could exploit potential weaknesses.
+Kai analyzes your code to understand its structure, purpose, and security properties. Rather than just matching patterns, Kai reasons about what your code is trying to do and what could go wrong:
 
-This stage produces a list of potential security issues with initial risk assessments before verification begins.
+- **Comprehends business logic** and data flow through your application
+- **Identifies security rules** that should hold (invariants)
+- **Generates hypotheses** about where these rules might be violated
+- **Explores attack vectors** that could exploit potential weaknesses
+
+This stage produces a list of potential security issues with initial risk assessments.
 
 ### Verification: Proving Vulnerabilities Are Real
 
-Each potential vulnerability is tested with actual exploit code to confirm it's exploitable. Only vulnerabilities that can be proven with working attacks move forward. Kai writes actual attack code that attempts to exploit potential vulnerabilities, compiles and executes the exploit in a secure environment, validates that the attack achieves its intended impact, and documents successful exploits with complete attack traces.
+Each potential vulnerability is tested with actual exploit code to confirm it's exploitable. Only vulnerabilities that can be proven with working attacks move forward:
 
-This verification process eliminates false positives by ensuring only genuinely exploitable vulnerabilities are reported.
+- **Writes attack code** that attempts to exploit the vulnerability
+- **Compiles and executes** the exploit in a secure, isolated environment
+- **Validates impact** to confirm the attack achieves its intended effect
+- **Documents successful exploits** with complete attack traces
+
+This verification process eliminates false positives - if Kai can't prove it, it doesn't report it.
 
 ### Fix Generation: Creating Solutions
 
-For each verified vulnerability, Kai analyzes the root cause and generates targeted code changes that address the security issue without breaking functionality. It understands why vulnerabilities exist and what needs to change, creates minimal fixes that address security issues surgically, assesses the impact to ensure existing functionality remains intact, and produces specific code changes with before/after diffs.
+For each verified vulnerability, Kai analyzes the root cause and generates targeted code changes:
+
+- **Root cause analysis**: Understands why the vulnerability exists
+- **Minimal changes**: Creates surgical fixes that modify only what's necessary
+- **Impact assessment**: Ensures existing functionality remains intact
+- **Clear diffs**: Produces specific before/after code changes
 
 ### Validation: Confirming Fixes Work
 
-Proposed fixes are tested to ensure they actually eliminate vulnerabilities while preserving intended functionality. Kai applies suggested code changes in test environments, replays original exploits against fixed versions, ensures normal operations continue working correctly, and confirms attacks no longer succeed.
+Proposed fixes are tested to ensure they eliminate vulnerabilities while preserving functionality:
+
+- **Applies fixes** in isolated test environments
+- **Replays original exploits** against the fixed version
+- **Verifies functionality** to ensure normal operations still work
+- **Confirms protection** by ensuring attacks no longer succeed
 
 ## The AI Agent Approach
 
-Kai uses specialized AI agents optimized for different types of security analysis rather than relying on pattern matching or single models. These agents can reason about code purpose and business logic, adapt to find vulnerabilities that don't match known patterns, actually attempt attacks to verify exploitability, and understand application-specific security requirements.
+Kai uses specialized AI agents optimized for different types of security analysis rather than relying on pattern matching or single models.
 
-State and access control agents focus on authentication, authorization, and privilege issues. Mathematical and logic agents specialize in numerical vulnerabilities and algorithmic flaws. Adversarial agents think like attackers looking for creative ways to abuse applications. Exploration agents perform systematic testing and edge case discovery. Verification agents ensure reported vulnerabilities are actually exploitable. Fix agents analyze root causes and generate targeted solutions.
+### Agent Capabilities
+
+- **Reason about code purpose** and business logic
+- **Adapt dynamically** to find vulnerabilities that don't match known patterns
+- **Attempt real attacks** to verify exploitability
+- **Understand context** of application-specific security requirements
+
+### Specialized Agent Types
+
+| Agent Type | Focus Area |
+|------------|------------|
+| **State & Access** | Authentication, authorization, privilege issues |
+| **Mathematical** | Numerical vulnerabilities, algorithmic flaws |
+| **Adversarial** | Creative attack vectors, abuse scenarios |
+| **Exploration** | Systematic testing, edge case discovery |
+| **Verification** | Confirming exploitability of findings |
+| **Fix** | Root cause analysis, generating solutions |
 
 ## Quality Assurance
 
-Kai employs multi-layer verification with checkpoints throughout the analysis process. Initial vulnerability identification includes confidence scoring, exploit generation and testing occurs in isolated environments, impact assessment considers business context, and final verification ensures quality before reporting.
+Kai employs multi-layer verification with checkpoints throughout the analysis process:
 
-This process provides complete visibility into how conclusions are reached, with every step documented and explained. Exploit code is provided so you can understand and verify attacks yourself, analysis reasoning is explained clearly, and you can see exactly how Kai reached its conclusions.
+- **Confidence scoring** during initial vulnerability identification
+- **Isolated execution** for exploit generation and testing
+- **Business context** considered in impact assessment
+- **Final verification** ensures quality before reporting
 
-Understanding how Kai works helps you trust its findings and use them effectively. The combination of AI reasoning and rigorous verification creates a security analysis system that finds real vulnerabilities while minimizing false alarms.
+### Transparency
+
+Every finding includes complete visibility into how conclusions were reached:
+
+- **Exploit code provided** so you can understand and verify attacks
+- **Analysis reasoning explained** in plain language
+- **Full documentation** of how Kai reached each conclusion
+
+The combination of AI reasoning and rigorous verification creates a security analysis system that finds real vulnerabilities while minimizing false alarms.
