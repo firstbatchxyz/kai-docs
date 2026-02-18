@@ -64,19 +64,31 @@ After installation, verify Kai is working correctly:
    ```
 3. The Kai panel should now show your project files
 
+## Key Features
+
+### Abort a Running Scan
+
+Need to cancel a scan that's in progress? Click the **stop icon** next to the execution in the **Executions** panel. A confirmation dialog appears before the scan is aborted.
+
+### View Fix Diffs
+
+For each vulnerability, you can view the suggested fix as a side-by-side diff directly in VS Code. Click the **diff icon** on any exploit item in the **Scan Results** panel to see the before-and-after code changes.
+
+<Frame>
+  <img src="/images/extension_inline_diff_view.png" alt="Inline diff view showing suggested fix in VS Code" />
+</Frame>
+
+### Create Issues from Exploits
+
+Turn vulnerability findings into trackable issues in GitHub or Linear without leaving VS Code. Click the **issues icon** on any exploit item, choose your integration, and select the target repository or team.
+
+<Tip>
+**Set up integrations first.** Connect GitHub or Linear from the [web dashboard](https://kai.dria.co) before creating issues from VS Code. See [Integrations](/integrations/overview) for setup instructions.
+</Tip>
+
 ## Extension Settings
 
 Access Kai settings through VS Code's Settings UI or the Kai Settings button:
-
-### OpenRouter API Key (Coming Soon)
-- **Purpose**: Use your own LLM credits to reduce costs
-- **Location**: VS Code Settings → Extensions → Kai Agent
-- **Default**: Kai uses its own keys if not provided
-
-### Default Scan Mode (Coming Soon)
-- **Options**: Baseline, Enhanced, Full
-- **Recommendation**: Enhanced (balanced performance and thoroughness)
-- **Default**: Enhanced
 
 ### File Exclusions
 Kai automatically excludes common files but you can customize:

@@ -52,7 +52,8 @@
         "using-kai/first-scan",
         "using-kai/understanding-results",
         "using-kai/managing-vulnerabilities",
-        "using-kai/scan-modes"
+        "using-kai/scan-modes",
+        "using-kai/reports"
       ]
     },
     {
@@ -70,6 +71,14 @@
         "web-dashboard/team-collaboration",
         "web-dashboard/vulnerability-management",
         "web-dashboard/analytics"
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/overview",
+        "integrations/github",
+        "integrations/linear"
       ]
     },
     {

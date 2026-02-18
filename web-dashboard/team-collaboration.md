@@ -72,12 +72,11 @@ Team members can:
 ### Notifications
 
 Stay informed about important security events:
-- New Critical/High severity vulnerabilities
+- **Email notifications** when scans start and complete
 - Vulnerabilities assigned to you
 - Status changes on findings you're watching
-- Scan completions
 
-Configure notification preferences in your account settings.
+Kai automatically sends email notifications for scan lifecycle events. You'll receive an email when an execution begins and another when results are ready for review.
 
 ## Best Practices
 
