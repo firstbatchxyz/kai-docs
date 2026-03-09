@@ -5,10 +5,10 @@ Connect Kai with your existing development tools to streamline your security wor
 ## Available Integrations
 
 <CardGroup cols={2}>
-  <Card title="GitHub" icon="github" href="/integrations/github">
+  <Card title="GitHub" icon="github" href="/platform/github">
     Create GitHub issues from vulnerability findings with full exploit details and fix suggestions.
   </Card>
-  <Card title="Linear" icon="circle-dot" href="/integrations/linear">
+  <Card title="Linear" icon="circle-dot" href="/platform/linear">
     Turn security findings into Linear issues with team and project routing.
   </Card>
 </CardGroup>

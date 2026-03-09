@@ -113,9 +113,9 @@ Drag and drop findings between columns to track your progress.
 
 ### Learn More
 
-- [Understanding Scan Results](using-kai/understanding-results) - Deep dive into vulnerability reports
-- [Managing Vulnerabilities](using-kai/managing-vulnerabilities) - Master the Kanban workflow
-- [Scan Mode Comparison](using-kai/scan-modes) - Choose the right analysis depth
+- [Understanding Scan Results](kai-security/understanding-results) - Deep dive into vulnerability reports
+- [Managing Vulnerabilities](kai-security/managing-vulnerabilities) - Master the Kanban workflow
+- [Scan Mode Comparison](kai-security/scan-modes) - Choose the right analysis depth
 
 ### Get Help
 

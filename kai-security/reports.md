@@ -72,4 +72,4 @@ Share reports with development teams to coordinate remediation. The detailed fin
 ## Next Steps
 
 - [Managing Vulnerabilities](managing-vulnerabilities) - Track fixes on the Kanban board
-- [Analytics](../web-dashboard/analytics) - Monitor security trends over time
+- [Analytics](../platform/analytics) - Monitor security trends over time

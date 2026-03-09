@@ -35,11 +35,11 @@ Manage all your repositories and scan results from a single interface.
 
 ### Security Reports
 
-Generate comprehensive security audit reports from completed scans. Reports include an executive summary, detailed findings with fix suggestions, and severity breakdowns — ready to share with stakeholders or use for compliance. See [Security Reports](../using-kai/reports) for details.
+Generate comprehensive security audit reports from completed scans. Reports include an executive summary, detailed findings with fix suggestions, and severity breakdowns — ready to share with stakeholders or use for compliance. See [Security Reports](../kai-security/reports) for details.
 
 ### Integrations
 
-Connect GitHub or Linear to create issues directly from vulnerability findings. Set up integrations once in the dashboard and use them from both the web and VS Code extension. See [Integrations](../integrations/overview) for setup instructions.
+Connect GitHub or Linear to create issues directly from vulnerability findings. Set up integrations once in the dashboard and use them from both the web and VS Code extension. See [Integrations](integrations) for setup instructions.
 
 ### Email Notifications
 
@@ -70,6 +70,6 @@ Changes in either environment reflect everywhere with bidirectional updates for 
 - [Managing Workspaces](workspaces) - Organize projects and team access
 - [Team Collaboration](team-collaboration) - Work together on security findings
 - [Vulnerability Management](vulnerability-management) - Master the Kanban workflow
-- [Integrations](../integrations/overview) - Connect GitHub and Linear
-- [Security Reports](../using-kai/reports) - Generate audit reports
+- [Integrations](integrations) - Connect GitHub and Linear
+- [Security Reports](../kai-security/reports) - Generate audit reports
 - [Analytics](analytics) - Track security metrics and progress

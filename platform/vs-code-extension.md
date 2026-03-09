@@ -83,7 +83,7 @@ For each vulnerability, you can view the suggested fix as a side-by-side diff di
 Turn vulnerability findings into trackable issues in GitHub or Linear without leaving VS Code. Click the **issues icon** on any exploit item, choose your integration, and select the target repository or team.
 
 <Tip>
-**Set up integrations first.** Connect GitHub or Linear from the [web dashboard](https://kai.dria.co) before creating issues from VS Code. See [Integrations](/integrations/overview) for setup instructions.
+**Set up integrations first.** Connect GitHub or Linear from the [web dashboard](https://kai.dria.co) before creating issues from VS Code. See [Integrations](/platform/integrations) for setup instructions.
 </Tip>
 
 ## Extension Settings
@@ -171,9 +171,9 @@ If you need to remove Kai:
 
 Once installed and configured:
 
-1. [Run Your First Scan](../using-kai/first-scan) - Complete walkthrough of the scanning process
-2. [Understanding Results](../using-kai/understanding-results) - Learn how to interpret findings
-3. [Managing Vulnerabilities](../using-kai/managing-vulnerabilities) - Master the workflow system
+1. [Run Your First Scan](../kai-security/first-scan) - Complete walkthrough of the scanning process
+2. [Understanding Results](../kai-security/understanding-results) - Learn how to interpret findings
+3. [Managing Vulnerabilities](../kai-security/managing-vulnerabilities) - Master the workflow system
 
 ## Getting Help
 
