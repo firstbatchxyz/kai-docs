@@ -33,7 +33,7 @@ Within a workspace, you can add repositories for scanning:
 2. Click **Add Repository**
 3. Choose from:
    - **Local Upload**: Upload code directly from VS Code
-   - **GitHub Import**: Connect a GitHub repository (coming soon)
+   - **GitHub Import**: Connect a GitHub repository via the [GitHub integration](/platform/github)
 
 ### Repository Settings
 

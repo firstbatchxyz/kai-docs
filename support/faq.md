@@ -69,9 +69,7 @@ A typical scan finds 10-25 vulnerabilities across all severity levels, with most
 
 ### Can I use my own API keys to reduce costs?
 
-This feature is coming soon. You'll be able to configure your OpenRouter API key in VS Code settings to use your own LLM credits instead of Kai's, potentially reducing costs.
-
-Currently, Kai uses its own API infrastructure for all analysis.
+Kai currently uses its own API infrastructure for all analysis. Support for configuring your own OpenRouter API key is on our roadmap.
 
 ## Understanding Results
 
@@ -122,13 +120,18 @@ You can also contact support for clarification on specific vulnerabilities.
 
 ### Does Kai work with my CI/CD pipeline?
 
-Currently, Kai works through the VS Code extension and web dashboard. Direct CI/CD integration is on our roadmap.
+Currently, Kai works through the VS Code extension, web dashboard, and [MCP server](/platform/mcp-server). Direct CI/CD integration is on our roadmap.
 
-**Coming soon**:
-- **GitHub integration**: Create issues directly from vulnerability findings
-- **Jira integration**: Link vulnerabilities to your existing ticket workflow
+**Available integrations**:
+- **[GitHub integration](/platform/github)**: Create GitHub issues directly from vulnerability findings
+- **[Linear integration](/platform/linear)**: Turn findings into Linear issues with team and project routing
+- **[MCP server](/platform/mcp-server)**: Connect AI assistants and development tools to Kai's full API
 
-**Current workflow**: Most teams integrate Kai by running scans before major releases through the VS Code extension and tracking fixes via the web dashboard's Kanban workflow.
+**Current workflow**: Most teams integrate Kai by running scans before major releases through the VS Code extension and tracking fixes via the web dashboard's Kanban workflow. Use the GitHub or Linear integration to push findings into your existing issue tracking workflow, or connect through the MCP server for programmatic access.
+
+### What is Kai Evolve?
+
+[Kai Evolve](/kai-evolve/overview) is an AI-powered code optimizer that uses evolutionary algorithms to improve your code's performance. Point it at a repository and Evolve generates optimized implementations, verifies correctness, and delivers ready-to-merge improvements. It works across domains including GPU kernels, sorting networks, matrix multiplication, hash functions, and smart contracts — achieving up to 192x speedup in benchmarks.
 
 ### Can I run Kai on-premises?
 
@@ -219,15 +222,14 @@ Team members will receive email invitations to join your workspace.
 - Can view vulnerabilities and reports
 - Cannot modify vulnerability status or run scans
 
-### Can I integrate Kai with Slack or other tools?
+### Can I integrate Kai with other tools?
 
-Yes, Kai offers several integration options:
-- **Slack/Teams**: Notifications for new critical vulnerabilities and scan completions
-- **Email**: Digest reports and alert notifications
-- **Webhooks**: Custom integrations with your existing tools
-- **API access**: For building custom integrations and automations
+Yes. Kai currently supports:
+- **[GitHub](/platform/github)**: Create issues directly from vulnerability findings
+- **[Linear](/platform/linear)**: Route findings to Linear teams and projects
+- **Email notifications**: Receive emails when scans start and complete
 
-Configure integrations through the workspace settings in the web dashboard.
+Connect integrations from the **Integrations** page in your workspace settings on the [web dashboard](https://kai.dria.co). Once connected, you can also create issues directly from the VS Code extension.
 
 ## Troubleshooting
 
@@ -268,8 +270,8 @@ Contact support through the web dashboard for comprehensive assistance.
 ### Where can I get more help?
 
 **Documentation**:
-- **[VS Code Extension Guide](../vs-code-extension/installation)**: Complete guide to using the extension
-- **[Web Dashboard Guide](../web-dashboard)**: Team collaboration and management features
+- **[VS Code Extension Guide](../platform/vs-code-extension)**: Complete guide to using the extension
+- **[Web Dashboard Guide](../platform/web-dashboard)**: Team collaboration and management features
 
 **Support channels**:
 - **Email**: kai@dria.co

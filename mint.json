@@ -47,38 +47,43 @@
       ]
     },
     {
-      "group": "Using Kai",
+      "group": "Kai Security",
       "pages": [
-        "using-kai/first-scan",
-        "using-kai/understanding-results",
-        "using-kai/managing-vulnerabilities",
-        "using-kai/scan-modes"
+        "kai-security/overview",
+        "kai-security/first-scan",
+        "kai-security/understanding-results",
+        "kai-security/managing-vulnerabilities",
+        "kai-security/scan-modes",
+        "kai-security/reports",
+        "kai-security/how-it-works",
+        "kai-security/vulnerability-types",
+        "kai-security/severity-levels",
+        "kai-security/fix-suggestions"
       ]
     },
     {
-      "group": "VS Code Extension",
+      "group": "Kai Evolve",
       "pages": [
-        "vs-code-extension/installation",
-        "vs-code-extension/troubleshooting"
+        "kai-evolve/overview",
+        "kai-evolve/getting-started",
+        "kai-evolve/understanding-results",
+        "kai-evolve/evaluators"
       ]
     },
     {
-      "group": "Web Dashboard",
+      "group": "Platform",
       "pages": [
-        "web-dashboard/overview",
-        "web-dashboard/workspaces",
-        "web-dashboard/team-collaboration",
-        "web-dashboard/vulnerability-management",
-        "web-dashboard/analytics"
-      ]
-    },
-    {
-      "group": "Security Analysis",
-      "pages": [
-        "security-analysis/how-it-works",
-        "security-analysis/vulnerability-types",
-        "security-analysis/severity-levels",
-        "security-analysis/fix-suggestions"
+        "platform/web-dashboard",
+        "platform/workspaces",
+        "platform/team-collaboration",
+        "platform/vulnerability-management",
+        "platform/analytics",
+        "platform/vs-code-extension",
+        "platform/troubleshooting",
+        "platform/integrations",
+        "platform/github",
+        "platform/linear",
+        "platform/mcp-server"
       ]
     },
     {

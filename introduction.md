@@ -1,64 +1,38 @@
 # What is Kai?
 
-**AI security agents for your entire codebase**
+**AI agents for security and code optimization.**
 
-Kai hardens AI-generated and rapidly written code by finding, proving, and patching real vulnerabilities before they reach production. Turn fast-moving prototypes into production-ready, secure applications.
+Kai is a platform with two core products: **Kai Security** finds, proves, and fixes real vulnerabilities in your code. **Kai Evolve** optimizes your code through autonomous evolutionary agents. Both are available through the web dashboard, VS Code extension, and MCP server.
 
-## Why Kai?
+## Kai Security
 
-Traditional security tools leave you guessing. Static analysis tools flood you with false positives and miss complex vulnerabilities. Manual audits are thorough but expensive and slow. Kai solves both problems with a fundamentally different approach:
+Traditional security tools flood you with false positives and miss complex vulnerabilities. Kai Security solves this with a fundamentally different approach: every vulnerability it reports comes with a proof-of-concept exploit that actually works.
 
-**Every vulnerability Kai reports comes with a proof-of-concept exploit that actually works.**
+Instead of relying on pattern matching, Kai orchestrates specialized agents across multiple frontier models. Each agent handles a different aspect of security analysis: discovery, verification, or patching. If Kai can't reproduce an issue or confirm a patch works, it marks the result as unverified. No guesswork, no noise.
 
-## What Makes Kai Different
+A single Kai runtime launches dozens of agents in parallel, completing in hours what takes security teams days of focused work.
 
-### 🎯 **Orchestrated Intelligence for Security**
+[Get started with Kai Security →](kai-security/overview)
 
-Instead of relying on a single AI model, Kai orchestrates specialized agents across multiple frontier models. Each agent is optimized for different aspects of security analysis: discovery, verification, or patching. You automatically get the right capability at the right cost for every vulnerability.
+## Kai Evolve
 
-### ✅ **Verified by Execution, Not Pattern Matching**
+Kai Evolve pairs the creative problem-solving capabilities of frontier LLMs with automated evaluators, using an evolutionary framework to iteratively improve upon the most promising solutions. Describe your optimization goal, and Evolve analyzes your code, generates evaluators, and runs hundreds of iterations to discover improvements that often surpass what experienced engineers find manually.
 
-Every exploit is proven by execution. Every fix is validated the same way. If Kai can't reproduce an issue or confirm a patch works, it marks the result as unverified. Kai never claims a win it can't prove, eliminating the false positive problem that plagues other security tools.
+The approach is general-purpose. Any problem whose solution can be expressed as code and automatically evaluated is a candidate for evolution: GPU kernels, sorting algorithms, matrix operations, smart contracts, graph analytics, scientific computing, and more.
 
-### ⚡ **Parallel Agents Turn Days into Hours**
+[Get started with Kai Evolve →](kai-evolve/overview)
 
-A single Kai runtime launches dozens of agents in parallel, scanning code, generating exploits, and iterating on fixes. What used to take a security team 36 hours of focused work now completes in about 2-3 hours end to end.
+## The Platform
 
-### ☁️ **Cloud Runtime, IDE Optional**
+Both products share a common platform:
 
-Kai runs in isolated cloud sandboxes, so you don't need powerful hardware or keep your device running for hours. After initialization, only the files you select are uploaded to secure cloud environments for analysis. You can close VS Code while agents work - progress and results are available in the web dashboard anytime.
-
-### 📊 **Watch Security Evolve in Real Time**
-
-Watch vulnerabilities move from "found" to "reproduced" to "patched" in real time. See how your codebase's security posture improves as Kai runs.
-
-## Who Should Use Kai?
-
-### Developers
-- **Building quickly**: Whether you're prototyping with AI assistance or racing to meet deadlines, Kai ensures your code is secure before it ships
-- **Working with legacy code**: Kai discovers vulnerabilities in existing codebases that have never been audited
-- **Learning security**: Every finding comes with detailed explanations and suggested fixes, helping you understand security patterns
-
-### Security Teams
-- **Scaling security reviews**: Analyze multiple projects in parallel without expanding headcount
-- **Reducing false positives**: Focus on real, exploitable vulnerabilities instead of chasing static analysis alerts
-- **Validating fixes**: Confirm that patches actually solve the underlying security issues
-
-### Team Leads
-- **Managing risk**: Get visibility into your codebase's security posture with quantified risk metrics
-- **Accelerating delivery**: Security analysis no longer becomes a bottleneck in your development process
-- **Improving code quality**: Teams learn from Kai's findings and write more secure code over time
-
-## How It Works (Simple Version)
-
-1. **Scan**: Kai's agents analyze your codebase to understand its structure and purpose
-2. **Find**: Specialized agents search for different types of vulnerabilities using advanced reasoning
-3. **Prove**: Each potential vulnerability is tested with a working exploit to confirm it's real
-4. **Fix**: Verified vulnerabilities get targeted patches that are tested to ensure they work
-5. **Review**: You get detailed results with exploit code, fix suggestions, and clear explanations
+- **[Web Dashboard](platform/web-dashboard)**: Manage workspaces, collaborate with your team, track analytics, and run both security scans and evolutions from any browser
+- **[VS Code Extension](platform/vs-code-extension)**: Scan code, review findings, view fix diffs, and create issues directly from your IDE
+- **[MCP Server](platform/mcp-server)**: Connect Claude Desktop, Cursor, VS Code Copilot, or any MCP-compatible client to access all of Kai's capabilities programmatically
+- **[Integrations](platform/integrations)**: Push findings to GitHub or Linear for issue tracking
 
 ## Ready to Get Started?
 
-Install the VS Code extension and run your first scan in under 5 minutes. No configuration required - just select your files and go.
+Install the VS Code extension and run your first security scan in under 5 minutes. Or navigate to the web dashboard to start an evolution.
 
 [Get Started →](getting-started)
