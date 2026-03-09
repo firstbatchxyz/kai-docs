@@ -51,7 +51,7 @@ Kai uses GitHub OAuth for authentication but never accesses your private reposit
    - Binary files and assets
 
 <Tip>
-**Start small**: For your first scan, select 5-10 key files. You can always run additional scans with more files later. Maximum upload size is 50MB per scan.
+**Start small**: For your first scan, select key files. You can always run additional scans with more files later. Maximum upload size is 50MB per scan.
 </Tip>
 
 ## Step 5: Choose Your Scan Mode
