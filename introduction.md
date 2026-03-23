@@ -1,38 +1,52 @@
 # What is Kai?
 
-**AI agents for security and code optimization.**
+**Your always-on AI codebase engineer.**
 
-Kai is a platform with two core products: **Kai Security** finds, proves, and fixes real vulnerabilities in your code. **Kai Evolve** optimizes your code through autonomous evolutionary agents. Both are available through the web dashboard, VS Code extension, and MCP server.
+AI coding agents generate thousands of lines a day. Every merged PR is a bet that the code is secure, fast, and clean. Most teams can't audit what humans write, let alone what machines produce.
 
-## Kai Security
+Kai doesn't just find vulnerabilities. It optimizes your hottest code paths, removes dead code, unifies duplicate patterns, and evolves faster implementations through autonomous research. It builds context about your codebase every day: your architecture, your conventions, your sacred code. Every change comes as a PR with proof, not a confidence score.
 
-Traditional security tools flood you with false positives and miss complex vulnerabilities. Kai Security solves this with a fundamentally different approach: every vulnerability it reports comes with a proof-of-concept exploit that actually works.
+It's an engineer you onboard.
 
-Instead of relying on pattern matching, Kai orchestrates specialized agents across multiple frontier models. Each agent handles a different aspect of security analysis: discovery, verification, or patching. If Kai can't reproduce an issue or confirm a patch works, it marks the result as unverified. No guesswork, no noise.
+## The Three Pillars
 
-A single Kai runtime launches dozens of agents in parallel, completing in hours what takes security teams days of focused work.
+### Find & Fix
 
-[Get started with Kai Security →](kai-security/overview)
+Adversarial security testing with proof-of-concept verification. Every vulnerability is proven in a sandbox before Kai opens the PR. Sandboxed exploit generation, zero false positives, patches ready to merge across 10+ languages and 20+ frameworks.
 
-## Kai Evolve
+[Kai Security →](kai-security/overview)
 
-Kai Evolve pairs the creative problem-solving capabilities of frontier LLMs with automated evaluators, using an evolutionary framework to iteratively improve upon the most promising solutions. Describe your optimization goal, and Evolve analyzes your code, generates evaluators, and runs hundreds of iterations to discover improvements that often surpass what experienced engineers find manually.
+### Optimize & Evolve
 
-The approach is general-purpose. Any problem whose solution can be expressed as code and automatically evaluated is a candidate for evolution: GPU kernels, sorting algorithms, matrix operations, smart contracts, graph analytics, scientific computing, and more.
+Evolutionary search that discovers faster implementations. Kai profiles hotspots, benchmarks alternatives, and delivers the winner. Fitness-function optimization with real benchmark validation across hundreds of autonomous iterations.
 
-[Get started with Kai Evolve →](kai-evolve/overview)
+[Kai Evolve →](kai-evolve/overview)
+
+### Clean & Simplify
+
+As codebases accumulate AI-generated code from different agents and sessions, entropy grows. Kai fights it continuously: dead code removal, duplicate detection, pattern unification, architectural simplification. *(Coming soon)*
+
+## Tool vs. Engineer
+
+| Tool Model | Engineer Model (Kai) |
+|------------|---------------------|
+| Scans for vulnerabilities, dumps PDF report | Security fixes with exploit proof |
+| Separate profiler, linter, dead code checker | Performance optimization through evolutionary research |
+| No context between runs | Builds deep context of architecture and conventions |
+| Triages 300 findings, mostly false positives | Every change lands as PR with evidence |
+| Dashboards and Jira tickets | PRs, not dashboards |
 
 ## The Platform
 
-Both products share a common platform:
+Kai is available through multiple surfaces:
 
 - **[Web Dashboard](platform/web-dashboard)**: Manage workspaces, collaborate with your team, track analytics, and run both security scans and evolutions from any browser
 - **[VS Code Extension](platform/vs-code-extension)**: Scan code, review findings, view fix diffs, and create issues directly from your IDE
-- **[MCP Server](platform/mcp-server)**: Connect Claude Desktop, Cursor, VS Code Copilot, or any MCP-compatible client to access all of Kai's capabilities programmatically
+- **[MCP Server](platform/mcp-server)**: Connect Claude Desktop, Cursor, VS Code Copilot, or any MCP-compatible client to access all capabilities programmatically
 - **[Integrations](platform/integrations)**: Push findings to GitHub or Linear for issue tracking
 
 ## Ready to Get Started?
 
-Install the VS Code extension and run your first security scan in under 5 minutes. Or navigate to the web dashboard to start an evolution.
+First analysis in minutes. First PR by morning.
 
 [Get Started →](getting-started)

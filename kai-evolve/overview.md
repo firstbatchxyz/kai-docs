@@ -1,10 +1,8 @@
 # Kai Evolve
 
-**Autonomous code optimization via evolutionary coding agents.**
+**Evolutionary search that discovers faster implementations. Profiles hotspots, benchmarks alternatives, delivers the winner.**
 
-Kai Evolve pairs the creative problem-solving capabilities of frontier LLMs with automated evaluators that verify results, using an evolutionary framework to iteratively improve upon the most promising solutions. The result: code optimizations that often surpass what experienced engineers discover manually.
-
-The approach is general-purpose. Any problem whose solution can be expressed as code and automatically evaluated is a candidate for evolution. Evolve has produced results across GPU kernel optimization, algorithm discovery, scientific computing, smart contract gas reduction, graph analytics, and more.
+Kai Evolve pairs the creative problem-solving capabilities of frontier LLMs with automated evaluators, using an evolutionary framework to iteratively improve upon the most promising solutions. Fitness-function optimization with real benchmark validation across hundreds of autonomous iterations. Evidence in every PR.
 
 ## The Core Idea
 
@@ -16,6 +14,8 @@ Traditional optimization requires a human to analyze code, hypothesize an improv
 4. **Verify**: Every improvement is validated against the evaluators to ensure correctness
 
 Because LLMs can draw on broad programming knowledge and the evolutionary framework provides objective feedback, Evolve often discovers optimizations that no single engineer would consider: novel memory access patterns, unconventional algorithmic decompositions, or subtle restructurings that unlock significant speedups.
+
+The approach is general-purpose. Any problem whose solution can be expressed as code and automatically evaluated is a candidate for evolution.
 
 ## Where to Use Kai Evolve
 
