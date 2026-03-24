@@ -1,36 +1,51 @@
 ---
 title: Kai Documentation
-description: AI-powered security analysis that finds, proves, and fixes vulnerabilities in your code
+description: Your always-on AI codebase engineer that secures, optimizes, and cleans your code with proof, not confidence scores
 ---
 
 # Welcome to Kai
 
-AI security agents that find, prove, and fix real vulnerabilities before they reach production. Every finding comes with working exploit code - no false positives.
-
-**For developers and security teams** who want to ship secure code faster without the noise of traditional static analysis tools.
+Your newest engineer never sleeps. Kai is an always-on AI codebase engineer that finds and fixes vulnerabilities, optimizes performance through evolutionary research, and keeps your code clean. Every change lands as a PR with proof, not a confidence score.
 
 ## Quick Start
 
 <CardGroup cols={2}>
-  <Card title="Install Extension" icon="download" href="getting-started">
-    Get scanning in under 5 minutes with the VS Code extension
+  <Card title="Get Started" icon="download" href="getting-started">
+    Install the VS Code extension and run your first analysis in minutes
   </Card>
-  <Card title="Run Your First Scan" icon="play" href="using-kai/first-scan">
-    Select files, choose a scan mode, and see real results
+  <Card title="Kai Security" icon="shield-check" href="kai-security/overview">
+    Adversarial testing with proof-of-concept verification
   </Card>
-  <Card title="Understand Results" icon="magnifying-glass" href="using-kai/understanding-results">
-    Learn how to interpret vulnerability reports and exploit code
+  <Card title="Kai Evolve" icon="bolt" href="kai-evolve/overview">
+    Evolutionary search that discovers faster implementations
   </Card>
-  <Card title="Security & Privacy" icon="shield-check" href="security-privacy">
-    How your code is handled and protected during analysis
+  <Card title="Platform" icon="grid-2" href="platform/web-dashboard">
+    Web dashboard, VS Code extension, MCP server, and integrations
   </Card>
 </CardGroup>
 
+## Three Core Capabilities
+
+### Find & Fix
+Adversarial security testing with proof-of-concept verification. Every vulnerability is proven in a sandbox before Kai reports it. Zero false positives. Patches ready to merge.
+
+[Learn more →](kai-security/overview)
+
+### Optimize & Evolve
+Evolutionary search that discovers faster implementations. Profiles hotspots, benchmarks alternatives, delivers the winner. Real benchmark validation across hundreds of autonomous iterations.
+
+[Learn more →](kai-evolve/overview)
+
+### Clean & Simplify
+As codebases accumulate AI-generated code from different agents and sessions, entropy grows. Kai fights it continuously with dead code removal, duplicate detection, pattern unification, and architectural simplification. *(Coming soon)*
+
 ## Why Kai?
 
-- **Verified vulnerabilities**: Every finding includes working exploit code proving it's real
-- **Zero false positives**: If Kai can't create a working exploit, it doesn't report it
-- **Automated fixes**: Get targeted code changes that actually solve security issues
-- **Cloud-powered**: Analysis runs in the cloud - no local resources required
+Most security tools scan for patterns and dump a PDF report. Most profilers flag hotspots and leave you to fix them. Kai is different:
 
-[Learn more about how Kai works →](introduction)
+- **Proof, not confidence scores**: Every finding includes working exploit code or real benchmark data
+- **PRs, not dashboards**: Changes land as pull requests with evidence attached
+- **Builds context**: Learns your architecture, conventions, and patterns over time
+- **Gets smarter**: The longer Kai runs, the more it knows. The more it knows, the faster your team ships
+
+[Learn more about Kai →](introduction)

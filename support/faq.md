@@ -6,9 +6,9 @@ Get answers to common questions about using Kai, understanding results, and mana
 
 ### What is Kai and how does it work?
 
-Kai is an AI-powered security analysis platform that finds, proves, and helps fix vulnerabilities in your code. Unlike traditional static analysis tools, Kai creates working exploit code to prove that every reported vulnerability is actually exploitable, eliminating false positives.
+Kai is your always-on AI codebase engineer. It secures, optimizes, and cleans your code with proof, not confidence scores.
 
-Kai uses specialized AI agents that think like attackers to discover security issues, then verifies each finding by generating and testing actual exploit code. Only vulnerabilities that can be proven with working attacks are reported to you.
+**Kai Security** finds and fixes vulnerabilities using adversarial testing with proof-of-concept verification. Every vulnerability is proven in a sandbox with working exploit code before it's reported. **Kai Evolve** optimizes your hottest code paths through evolutionary search, discovering faster implementations across hundreds of autonomous iterations. Every change lands as a PR with evidence.
 
 ### Do I need to be a security expert to use Kai?
 
@@ -131,7 +131,7 @@ Currently, Kai works through the VS Code extension, web dashboard, and [MCP serv
 
 ### What is Kai Evolve?
 
-[Kai Evolve](/kai-evolve/overview) is an AI-powered code optimizer that uses evolutionary algorithms to improve your code's performance. Point it at a repository and Evolve generates optimized implementations, verifies correctness, and delivers ready-to-merge improvements. It works across domains including GPU kernels, sorting networks, matrix multiplication, hash functions, and smart contracts — achieving up to 192x speedup in benchmarks.
+[Kai Evolve](/kai-evolve/overview) is evolutionary search that discovers faster implementations. It profiles hotspots, benchmarks alternatives, and delivers the winner. Point it at a repository and Evolve generates optimized implementations with real benchmark validation across hundreds of autonomous iterations. Evidence in every PR.
 
 ### Can I run Kai on-premises?
 

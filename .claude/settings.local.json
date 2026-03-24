@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh api:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh release list:*)",
+      "Bash(dd:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh pr:*)",
+      "WebFetch(domain:production.kai-backend.dria.co)",
+      "WebFetch(domain:deepmind.google)",
+      "Bash(cp:*)",
+      "Bash(git:*)",
+      "WebFetch(domain:kai-manifesto.vercel.app)"
+    ]
+  }
+}
